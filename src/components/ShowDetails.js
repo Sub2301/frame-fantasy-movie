@@ -35,7 +35,7 @@ function ShowDetails() {
   const plainText = summary?.replace(/<[^>]*>/g, "");
 
   const handleBookTickets = () => {
-    console.log("object");
+    // console.log("object");
     navigate(`book-ticket`);
   };
 
